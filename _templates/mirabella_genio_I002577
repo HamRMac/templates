@@ -9,7 +9,8 @@ link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-smart-ir-universal-
 image: /assets/images/mirabella_genio_I002577.jpg
 template: '{"NAME":"Genio IR TxRx","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 mlink: https://mirabellagenio.net.au/smart-ir-controller
-flash: tuya-convert
+flash: serial
 ---
 
 You will need to flash the tasmota-ir.bin firmware to this deivce.
+This device was updated in late 2020 with a new firmware that has patched Tyua Convert. this device requires a triangular head security screw to open and access the serial port.
